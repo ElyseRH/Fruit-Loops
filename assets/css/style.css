@@ -717,3 +717,16 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	background-color: #402342;
 	color: #f2fedc;
 }
+
+
+/* Fruity News */
+
+.twitter-timeline{
+	height: 99% !important;
+}
+
+.feed-item-title > a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
+}
