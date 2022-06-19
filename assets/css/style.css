@@ -92,24 +92,6 @@ body {
 	position: relative;
 }
 
-
-/* CSS Document */
-
-/* red = #E40303
-orange = #FF8C00
-yellow = #FFED00
-gren = #008026
-blue = #004DFF
-purple = #750787 
-light blue = #00C0C0*/
-
-
-.test1 {
-	width: 100%;
-	margin: 0 auto;
-	border: 1px solid red;
-}
-
 header {
 	position: fixed;
 	top: 0;
@@ -142,6 +124,7 @@ h1 a {
 	text-decoration: none;
 	padding-left: 20px;
 	color: #fff;
+	font-size: 32px;
 }
 
 h1 a:hover {
@@ -150,7 +133,7 @@ h1 a:hover {
 
 }
 
-.menu {
+/* .menu {
 	width: 100%;
 	background-color: pink;
 	position: absolute;
@@ -162,7 +145,7 @@ h1 a:hover {
 	z-index: 100;
 	text-align: left;
 	padding-left: 15px;
-}
+} */
 
 h1 a {
 	text-decoration: none;
@@ -197,6 +180,8 @@ h1 a:hover {
 ul.menu {
 	margin-left: 0px;
 	list-style: none;
+	background-color: #48446E;
+	padding: 20px 0 0;
 }
 
 
@@ -322,10 +307,13 @@ main {
 	width: 88%;
 	margin: 20px auto;
 	max-height: 600px;
+	max-width: 1150px;
 }
 
 #carouselExampleControls img {
 	max-height: 80vh;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 #carouselExampleControls h4 {
@@ -342,9 +330,13 @@ main {
 }
 
 /*		 support Area 	 */
+section.networks {
+	background-color: #00C0C0 ;
+}
 #supportArea {
-	background-color: #00C0C0 !important;
 	text-align: center;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 #supportArea ul {
@@ -383,7 +375,7 @@ footer {
 	text-align: center;
 	background-color: #000;
 	vertical-align: middle;
-	padding-top: 10px;
+	padding: 15px 0 10px;
 	margin-top: 100px;
 }
 
@@ -410,9 +402,7 @@ footer p {
 	color: #ECE5DE;
 }
 
-/* footer i {
-    color: #ECE5DE;
- */
+
 
 footer li:hover i {
 	color: black;
@@ -469,7 +459,10 @@ footer li:hover i {
 		padding-top: 0px;
 
 	}
-
+	ul.menu {
+		
+		padding: 0;
+	}
 	#menu {
 		margin: 15px auto;
 		text-align: center;
@@ -560,77 +553,43 @@ footer li:hover i {
 	padding-top: 0px;
 
 }
-
-#menu {
-	margin: 15px auto;
-	text-align: center;
-	font-size: 0px;
-
-}
-
-#menu li {
-	width: 140px;
-	list-style: none;
-	display: inline-block;
-	text-align: center;
-	margin-right: 20px;
-	font-size: 16px;
-}
-
 nav ul li a {
-	display: block;
+
 	background-color: #48446E;
 	color: #F2FEDC;
-	width: 100%;
-	padding: 10px 0px;
-	text-decoration: none;
-	text-align: center;
-	position: relative;
-	transition: all 1s;
+
 }
 
 nav ul li a:hover {
-	color: #F2FEDC;
-	background-color: #3a356b;
+	/* color: #F2FEDC;
+	background-color: #3a356b; */
+	color: #3a356b;
+	background-color: #F2FEDC;
 
 }
 
 nav ul li a:before {
-	position: absolute;
-	content: "";
-	width: 3px;
-	height: 100%;
-	top: 0;
-	left: 0;
+
 	background-color: #7c3a58;
-	transition: all 1s;
+	
 }
 
 nav ul li a:after {
-	position: absolute;
-	content: "";
-	width: 3px;
-	height: 100%;
-	top: 0;
-	left: 100%;
+
 	background-color: #7c3a58;
-	transition: all 1s;
+	
 }
 
 nav ul li a:hover:before {
-	left: 50%;
-	transform: translateY(-50%) rotate(-90deg);
-	height: 150%;
+
 	background-color: #750787;
 
 }
 
 nav ul li a:hover:after {
-	left: 50%;
-	transform: translateY(15%) rotate(-90deg);
-	height: 150%;
+
 	background-color: #750787;
-}
+} 
 
 
 
@@ -650,8 +609,6 @@ nav ul li a:hover:after {
 .clothing-menu-list {
 	list-style-type: none;
 }
-
-
 
 .clothing-tips-heading {
 	color: #402342;
@@ -711,4 +668,17 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 .clothing-btn {
 	background-color: #402342;
 	color: #f2fedc;
+}
+
+
+/* Fruity News */
+
+.twitter-timeline{
+	height: 99% !important;
+}
+
+.feed-item-title > a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
 }
