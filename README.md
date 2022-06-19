@@ -26,4 +26,10 @@ For text - #F2FEDC
 
 ## Technologies
 
+## Resources
+
+[Dublin Pride](https://dublinpride.ie/events/) and [Meetup](https://www.meetup.com/) for events.
+
+[https://gcn.ie/](https://gcn.ie/) for news.
+
 ## Aknowledgments
