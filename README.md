@@ -16,7 +16,23 @@ For navigation elements (and anything else requiring a darker colour) - #402342
 For backgrounds - #48446E
 For text - #F2FEDC
 
+![Colour Selection](./assets/readme/fl-colours.png "Screenshot of colour selection")
+
 ## Features
+
+### Home Screen
+
+### Nav Bar
+
+### Events
+
+### Clothing Tips
+
+### Fruity News
+
+### Safe Spaces
+
+## Future Features
 
 ## Bugs
 
@@ -24,15 +40,24 @@ For text - #F2FEDC
 
 [Elyse Horan](https://github.com/ElyseRH)
 
+[Josef Jakubiak](https://github.com/BritishBambi)
+
 ## Technologies
 
-Google Cloud Platform
-Bootstrap
+- HTML
+- CSS
+- Javascript
+- Google Cloud Platform
+- Bootstrap
+- Git
+- Github
 
 ## Resources
 
 [Dublin Pride](https://dublinpride.ie/events/) and [Meetup](https://www.meetup.com/) for events.
 
 [https://gcn.ie/](https://gcn.ie/) for news.
+
+[Dublin LGBTQ+ Pride](https://twitter.com/dublinpride) for twitter feed.
 
 ## Aknowledgments
