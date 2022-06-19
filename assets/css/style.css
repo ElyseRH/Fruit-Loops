@@ -150,7 +150,7 @@ h1 a:hover {
 
 }
 
-.menu {
+/* .menu {
 	width: 100%;
 	background-color: pink;
 	position: absolute;
@@ -162,7 +162,7 @@ h1 a:hover {
 	z-index: 100;
 	text-align: left;
 	padding-left: 15px;
-}
+} */
 
 h1 a {
 	text-decoration: none;
@@ -322,10 +322,13 @@ main {
 	width: 88%;
 	margin: 20px auto;
 	max-height: 600px;
+	max-width: 1150px;
 }
 
 #carouselExampleControls img {
 	max-height: 80vh;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 #carouselExampleControls h4 {
@@ -342,9 +345,13 @@ main {
 }
 
 /*		 support Area 	 */
+section.networks {
+	background-color: #00C0C0 ;
+}
 #supportArea {
-	background-color: #00C0C0 !important;
 	text-align: center;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 #supportArea ul {
