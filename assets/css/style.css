@@ -417,7 +417,7 @@ footer li:hover i {
 }
 
 .git-colors li:nth-child(3) i {
-	color: yellow;
+	color: purple;
 }
 
 .git-colors li:nth-child(4) i {
@@ -439,7 +439,7 @@ footer li:hover i {
 
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
-@media (min-width: 898px) {
+@media (min-width: 917px) {
 
 
 	.burguer {
@@ -541,8 +541,18 @@ footer li:hover i {
 
 /* Style for clothing tips page		 */
 
+.cloth-menu {
+	position: static;
+	width: 100%;
+	visibility: visible;
+	font-size: 0px;
+	padding-left: 0px;
+	background-color: transparent;
+	border-top: 0px;
+	height: 0vh;
+	padding-top: 0px;
 
-
+}
 nav ul li a {
 
 	background-color: #48446E;
