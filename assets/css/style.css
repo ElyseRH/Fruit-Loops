@@ -147,7 +147,7 @@ h1 a {
 }
 
 h1 a:hover {
-    color: #48446E;
+    color: #c6c0e4;
     text-decoration: none ;
     
 } 
@@ -466,15 +466,6 @@ footer li:hover i {
 		
 /* Style for clothing tips page */
 
-.clothing-color-test {
-	background-color: #402342;
-	color: #f2fedc;
-}
-
-.clothing-tips-main {
-	/* background-color: #282257; */
-	color: #f2fedc;
-}
 .clothing-tips-main a {
 	text-decoration: none;
 	color: #f2fedc;
@@ -487,7 +478,36 @@ footer li:hover i {
 .clothing-menu-list {
 	list-style-type: none;
 }
-		
+
+.clothing-tips-heading {
+	color: #402342;
+}
+
+.clothing-tips-card {
+	width: 50rem;
+	margin: 2rem;
+}
+
+.clothing-card-body {
+	background-color: #f2fedc;
+	color: #48446E;
+	/* margin: 2rem; */
+}
+
+.clothing-card-body a {
+	color: #7c3a58;
+}
+
+.clothing-tips-image {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.clothing-tips-image img {
+	max-width: 60vw;
+	max-height: 60vh;
+}
 		
 /* Back to top button for clothing tips page	
 Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
@@ -499,15 +519,21 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	z-index: 99;
 	border: none;
 	outline: none;
-	background-image: linear-gradient(to top, #750787, #75159b, #7121b1, #682ec8, #563bdf, #4253ec, #2a67f7, #0079ff, #008cf2, #008fb9, #008a6d, #008026);
-	color: white;
+	background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+	color: #402342;
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 10px;
 	font-size: 14px;
   }
 
-  
+
+  /* Style for submit clothing tip form */
+
+  .clothing-btn {
+	background-color: #402342;
+	color: #f2fedc;
+  }
 		
 
 	
