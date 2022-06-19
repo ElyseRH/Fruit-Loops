@@ -80,7 +80,10 @@ body {
 
 /* Center Content */
 #wrapper-center {
-	padding: 2px;
+	margin: auto;
+	height: max-content;
+	background-color: transparent;
+	padding: 45px;
 }
 
 /* Calendar */
