@@ -1,3 +1,9 @@
+
+body {
+	padding: auto;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+
 /* Colours:
 Nav - #402342
 Backgrounds - #48446E
@@ -15,88 +21,89 @@ body {
     font-family: Nunito, Helvetica, sans-serif;
 	background-color: #48446e;
 	color: #f2fedc;
+
 }
 
 /* Hero Image */
 #hero-image {
-    background-image: url(/assets/imgs/fruit-loops-img.jpg);
-    background-repeat: repeat;
-    position: relative;
-    height: 90px;
-    width: auto;
+	background-image: url(/assets/imgs/fruit-loops-img.jpg);
+	background-repeat: repeat;
+	position: relative;
+	height: 90px;
+	width: auto;
 }
 
 #hero-text {
-    text-align: center;
-    color: rgb(95, 56, 6);
-    font-size: x-large;
-    font-weight: 900;
+	text-align: center;
+	color: rgb(95, 56, 6);
+	font-size: x-large;
+	font-weight: 900;
 }
 
 /* Navbar */
 .nav-link active {
-    float: left;
+	float: left;
 }
 
 /* Google Maps */
 #map {
-    height: 350px;
-    /* The height is 400 pixels */
-    width: 350px;
-    /* The width is the width of the web page */
+	height: 350px;
+	/* The height is 400 pixels */
+	width: 350px;
+	/* The width is the width of the web page */
 }
 
 /* Left-Panel */
 #left-panel {
-    margin-left: auto;
-    margin-right: 35px;
-    margin-bottom: 50px;
-    height: min-content;
-    width: min-content;
-    border: solid;
-    text-align: center;
-    float: left;
-    padding: 5px;
-    background-color: aliceblue;
-    color: black;
-    position: relative;
+	margin-left: auto;
+	margin-right: 35px;
+	margin-bottom: 50px;
+	height: min-content;
+	width: min-content;
+	border: solid;
+	text-align: center;
+	float: left;
+	padding: 5px;
+	background-color: aliceblue;
+	color: black;
+	position: relative;
 }
 
 #inner-left {
-    float: left;
+	float: left;
 }
 
 /* Right Panels */
 #right-panel {
-    padding-left: 2px;
-    margin: 0;
-    height: min-content;
-    width: min-content;
-    border: solid;
-    text-align: center;
-    float: right;
-    padding: 0;
-    background-color: aliceblue;
-    color: black;
-    position: relative;
+	padding-left: 2px;
+	margin: 0;
+	height: min-content;
+	width: min-content;
+	border: solid;
+	text-align: center;
+	float: right;
+	padding: 0;
+	background-color: aliceblue;
+	color: black;
+	position: relative;
 }
 
 #inner-right {
-    float: right;
+	float: right;
 }
 
 /* Center Content */
 #wrapper-center {
-    padding: 2px;
+	padding: 2px;
 }
 
 /* Calendar */
 #calendar {
-    text-align: center;
-    position: relative;
+	text-align: center;
+	position: relative;
 }
 
- 
+
 /* CSS Document */
 
 /* red = #E40303
@@ -107,37 +114,71 @@ blue = #004DFF
 purple = #750787 
 light blue = #00C0C0*/
 
+
+.test1 {
+	width: 100%;
+
 .test1{
 	width: 80%;
 	margin: 0 auto;
+
 	border: 1px solid red;
 }
+
 header {
-    position: fixed;
-  	top: 0;
+	position: fixed;
+	top: 0;
 	left: 0;
 	width: 100%; 
-
 	background-color: #00C0C0;
 	z-index: 9999;
-
-	background-color: #402342;
+background-color: #402342;
 
 }
+
 .container-header {
 	width: 100%;
-    height: 75px;
+	height: 75px;
 	margin: 0 auto;
 	max-width: 1170px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-between;  
-	
+	justify-content: space-between;
+
 }
-h1{
-    padding-top: 15px;
+
+h1 {
+	padding-top: 15px;
 }
+
+
+h1 a {
+	text-decoration: none;
+	padding-left: 20px;
+	color: #fff;
+}
+
+h1 a:hover {
+	color: #c0c0c0;
+	text-decoration: none;
+
+}
+
+.menu {
+	width: 100%;
+	background-color: pink;
+	position: absolute;
+	left: 100%;
+	top: 65px;
+	border-top: 1px solid #1B375A;
+	transition: all 0.3s;
+	visibility: hidden;
+	z-index: 100;
+	text-align: left;
+	padding-left: 15px;
+  }
+  
 h1 a {  
     text-decoration: none ;
 
@@ -166,10 +207,25 @@ h1 a:hover {
 	height: 100vh;
 	padding-top: 50px;
 }
-ul.menu  {
-    margin-left: 0px;
-    list-style: none;
+
+ul.menu {
+	margin-left: 0px;
+	list-style: none;
 }
+
+
+nav ul li a {
+	display: block;
+	width: 100%;
+	padding: 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	color: #008026;
+}
+
+nav ul li a:hover {
+	color: #004DFF;
+  }
 nav ul li a{
 	display:block;	
 	width:100%;
@@ -180,81 +236,97 @@ nav ul li a{
 }
 nav ul li a:hover{				
 	color: #402342;	
+
 }
+
 .menu-click {
-    left: 0%;
-    transition: all .5s;
-    visibility: visible;
-    z-index: 100;
+	left: 0%;
+	transition: all .5s;
+	visibility: visible;
+	z-index: 100;
 }
+
 /*BURGUER */
 .burguer {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    cursor: pointer;
-    right: 20px;
-    top: 25px;
-    z-index: 120;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	cursor: pointer;
+	right: 20px;
+	top: 25px;
+	z-index: 120;
 }
 
 .burguer span {
-    display: block;
-    width: 100%;
-    height: 4px;   
-    position: absolute;
-    transition: all 0.3s;
+	display: block;
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	transition: all 0.3s;
 }
+
 .burguer span:nth-child(1) {
-    top: 0%;
-    margin-top: 1px;	
+	top: 0%;
+	margin-top: 1px;
 	background-color: #E40303;
 }
+
 .burguer span:nth-child(2) {
-    top: 50%;
-    transform: translateY(-50%);
+	top: 50%;
+	transform: translateY(-50%);
 	background-color: #FF8C00;
 }
+
 .burguer span:nth-child(3) {
-    top: 100%;
-    margin-top: -4px; 
+	top: 100%;
+	margin-top: -4px;
 	background-color: #FFED00;
 }
-.burguer:hover span:nth-child(1) { 
+
+.burguer:hover span:nth-child(1) {
 	background-color: #008026;
 }
-.burguer:hover span:nth-child(2) { 
+
+.burguer:hover span:nth-child(2) {
 	background-color: #004DFF;
 }
-.burguer:hover span:nth-child(3) { 
+
+.burguer:hover span:nth-child(3) {
 	background-color: #750787;
 }
+
 /* .burguer:hover span {
     background: #c0c0c0;
 } */
-.burguer-click span {   
-    transition: all 0.3s;
-    height: 4px;
+.burguer-click span {
+	transition: all 0.3s;
+	height: 4px;
 }
+
 .burguer-click span:nth-child(1) {
-    top: 50%;
-    transform: rotate(-45deg);
-    margin-top: -1px;
+	top: 50%;
+	transform: rotate(-45deg);
+	margin-top: -1px;
 	background-color: #E40303;
 }
+
 .burguer-click span:nth-child(2) {
-    opacity: 0;
-    visibility: hidden;
+	opacity: 0;
+	visibility: hidden;
 }
+
 .burguer-click span:nth-child(3) {
-    top: 50%;
-    margin-top: -1px;
-    transform: rotate(-135deg);
+	top: 50%;
+	margin-top: -1px;
+	transform: rotate(-135deg);
 	background-color: #FFED00;
 }
-main{
+
+main {
 	margin-top: 100px;
 }
+
+
 /*         carouselExampleControls         */
 
 #carouselExampleControls{   
@@ -372,15 +444,107 @@ footer li:hover i {
 	color: #fff;
 
    }
+
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
 
 
-    .burguer {
-        display: none;
-    }
+	.burguer {
+		display: none;
+	}
 
+
+	.menu {
+		position: static;
+		width: 100%;
+		visibility: visible;
+		font-size: 0px;
+		padding-left: 0px;
+		background-color: transparent;
+		border-top: 0px;
+		height: 0vh;
+		padding-top: 0px;
+
+	}
+
+	#menu {
+		margin: 15px auto;
+		text-align: center;
+		font-size: 0px;
+
+	}
+
+	#menu li {
+		width: 140px;
+		list-style: none;
+		display: inline-block;
+		text-align: center;
+		margin-right: 20px;
+		font-size: 20px;
+	}
+
+	nav ul li a {
+		display: block;
+		background-color: #FF8C00;
+		width: 100%;
+		padding: 10px 0px;
+		text-decoration: none;
+		text-align: center;
+		position: relative;
+		transition: all 1s;
+	}
+
+	nav ul li a:hover {
+		color: #004DFF;
+		background-color: #FFED00;
+
+	}
+
+	nav ul li a:before {
+		position: absolute;
+		content: "";
+		width: 3px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #FFED00;
+		transition: all 1s;
+	}
+
+	nav ul li a:after {
+		position: absolute;
+		content: "";
+		width: 3px;
+		height: 100%;
+		top: 0;
+		left: 100%;
+		background-color: #FFED00;
+		transition: all 1s;
+	}
+
+	nav ul li a:hover:before {
+		left: 50%;
+		transform: translateY(-50%) rotate(-90deg);
+		height: 150%;
+		background-color: #750787;
+
+	}
+
+	nav ul li a:hover:after {
+		left: 50%;
+		transform: translateY(15%) rotate(-90deg);
+		height: 150%;
+		background-color: #750787;
+	}
+
+
+}
+
+
+
+
+/* Style for clothing tips page		 */
 
 .menu {
 	position: static;
@@ -470,6 +634,7 @@ footer li:hover i {
 		
 /* Style for clothing tips page */
 
+
 .clothing-tips-main a {
 	text-decoration: none;
 	color: #f2fedc;
@@ -482,6 +647,8 @@ footer li:hover i {
 .clothing-menu-list {
 	list-style-type: none;
 }
+
+
 
 .clothing-tips-heading {
 	color: #402342;
@@ -513,6 +680,7 @@ footer li:hover i {
 	max-height: 60vh;
 }
 		
+
 /* Back to top button for clothing tips page	
 Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 #clothingBtn {
@@ -529,6 +697,9 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	padding: 15px;
 	border-radius: 10px;
 	font-size: 14px;
+
+}
+  
   }
 
 
