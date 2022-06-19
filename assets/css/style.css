@@ -1,9 +1,3 @@
-
-body {
-	padding: auto;
-	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;
-
 /* Colours:
 Nav - #402342
 Backgrounds - #48446E
@@ -15,10 +9,10 @@ Text - #F2FEDC */
 }
 
 body {
-    
-    padding: auto;
-    /* text-transform: uppercase; */
-    font-family: Nunito, Helvetica, sans-serif;
+
+	padding: auto;
+	/* text-transform: uppercase; */
+	font-family: Nunito, Helvetica, sans-serif;
 	background-color: #48446e;
 	color: #f2fedc;
 
@@ -117,11 +111,7 @@ light blue = #00C0C0*/
 
 .test1 {
 	width: 100%;
-
-.test1{
-	width: 80%;
 	margin: 0 auto;
-
 	border: 1px solid red;
 }
 
@@ -129,10 +119,10 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%; 
+	width: 100%;
 	background-color: #00C0C0;
 	z-index: 9999;
-background-color: #402342;
+	background-color: #402342;
 
 }
 
@@ -177,33 +167,34 @@ h1 a:hover {
 	z-index: 100;
 	text-align: left;
 	padding-left: 15px;
-  }
-  
-h1 a {  
-    text-decoration: none ;
+}
 
-	padding-left: 20px;    
-    color: #f2fedc;  
+h1 a {
+	text-decoration: none;
+
+	padding-left: 20px;
+	color: #f2fedc;
 
 }
 
 h1 a:hover {
-    color: #c6c0e4;
-    text-decoration: none ;
-    
-} 
+	color: #c6c0e4;
+	text-decoration: none;
+
+}
+
 .menu {
-    width: 100%;
-    background-color: #f2fedc;
-    position: absolute;
-    left: 100%;
-    top: 65px;
-    border-top: 1px solid #1B375A;
-    transition: all 0.3s;
-    visibility: hidden;
-    z-index: 100;
-    text-align: left;
-    padding-left: 15px;
+	width: 100%;
+	background-color: #f2fedc;
+	position: absolute;
+	left: 100%;
+	top: 65px;
+	border-top: 1px solid #1B375A;
+	transition: all 0.3s;
+	visibility: hidden;
+	z-index: 100;
+	text-align: left;
+	padding-left: 15px;
 	height: 100vh;
 	padding-top: 50px;
 }
@@ -225,17 +216,19 @@ nav ul li a {
 
 nav ul li a:hover {
 	color: #004DFF;
-  }
-nav ul li a{
-	display:block;	
-	width:100%;
-	padding:10px 0px;
-	text-decoration:none;
-	text-align:center;	
+}
+
+nav ul li a {
+	display: block;
+	width: 100%;
+	padding: 10px 0px;
+	text-decoration: none;
+	text-align: center;
 	color: #48446E;
 }
-nav ul li a:hover{				
-	color: #402342;	
+
+nav ul li a:hover {
+	color: #402342;
 
 }
 
@@ -329,121 +322,135 @@ main {
 
 /*         carouselExampleControls         */
 
-#carouselExampleControls{   
-   
+#carouselExampleControls {
+
 	width: 88%;
- margin: 20px auto;
-    max-height: 600px;
+	margin: 20px auto;
+	max-height: 600px;
 }
 
-#carouselExampleControls img{
-   	max-height: 80vh;
+#carouselExampleControls img {
+	max-height: 80vh;
 }
-#carouselExampleControls h4{
-    padding-bottom: 20px;
+
+#carouselExampleControls h4 {
+	padding-bottom: 20px;
 }
-#carousel2{
-    text-align: center;
-    margin: 40px 0;
+
+#carousel2 {
+	text-align: center;
+	margin: 40px 0;
 }
 
 .bold-carousel {
-    font-weight: 7git pou00;
+	font-weight: 7git pou00;
 }
+
 /*		 support Area 	 */
 #supportArea {
-    background-color: #00C0C0 !important;
-    text-align: center;
+	background-color: #00C0C0 !important;
+	text-align: center;
 }
 
 #supportArea ul {
-    list-style-type: none;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 
 }
-#supportArea ul li{  
+
+#supportArea ul li {
 	font-size: 13px;
 }
-#supportArea ul li:hover{  
+
+#supportArea ul li:hover {
 	transform: scale(1.1);
-	
+
 }
+
 #supportArea a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #supportArea h3,
 h4 {
-    margin-bottom: 20px;
-    padding-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 #supportArea img {
-    border-radius: 8px;
+	border-radius: 8px;
 }
+
 /*      footer      */
 
 footer {
-    text-align: center;   
-    background-color: #000;
-    vertical-align: middle;
-    padding-top: 10px;
+	text-align: center;
+	background-color: #000;
+	vertical-align: middle;
+	padding-top: 10px;
 	margin-top: 100px;
 }
 
 footer ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 0px;
-    margin: 0px;
-    padding: 0px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 
 footer li {
-    display: inline;
-    margin: 0 10px;
-    font-size: 1.5rem;
+	display: inline;
+	margin: 0 10px;
+	font-size: 1.5rem;
 }
 
 footer p {
-    font-size: 1rem;
-    font-weight: 900;
-    padding-top: 5px;
-    text-align: center;
-    color: #ECE5DE;
+	font-size: 1rem;
+	font-weight: 900;
+	padding-top: 5px;
+	text-align: center;
+	color: #ECE5DE;
 }
 
 /* footer i {
     color: #ECE5DE;
-} */
+ */
 
 footer li:hover i {
-    color: black;
+	color: black;
 }
-.git-colors li:nth-child(1) i{
- color: red;
+
+.git-colors li:nth-child(1) i {
+	color: red;
 }
-.git-colors li:nth-child(2) i{
+
+.git-colors li:nth-child(2) i {
 	color: green;
-   }
-   .git-colors li:nth-child(3) i{
+}
+
+.git-colors li:nth-child(3) i {
 	color: yellow;
-   }
-   .git-colors li:nth-child(4) i{
+}
+
+.git-colors li:nth-child(4) i {
 	color: #ED008C;
-   }
-   .git-colors li:nth-child(5) i{
+}
+
+.git-colors li:nth-child(5) i {
 	color: blue;
-   }
-.git-colors li i:hover{
+}
+
+.git-colors li i:hover {
 	color: #fff;
-   }
-   .social-networks li i:hover{
+}
+
+.social-networks li i:hover {
 	color: #fff;
 
-   }
+}
 
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
@@ -550,88 +557,89 @@ footer li:hover i {
 	position: static;
 	width: 100%;
 	visibility: visible;
-	font-size: 0px;	
+	font-size: 0px;
 	padding-left: 0px;
-	background-color: transparent;	
+	background-color: transparent;
 	border-top: 0px;
 	height: 0vh;
 	padding-top: 0px;
 
 }
-	#menu{			
-			margin:15px auto;			
-			text-align:center;
-			font-size:0px;	
-			
-		}
-		
-		#menu li{
-			width:140px;			
-			list-style:none;
-			display:inline-block;
-			text-align:center;		
-			margin-right:20px;		
-			font-size:16px;
-			}
-			
-			nav ul li a{
-				display:block;
-				background-color:#48446E;
-				color: #F2FEDC;
-				width:100%;
-				padding:10px 0px;
-				text-decoration:none;
-				text-align:center;
-				position:relative;
-				transition:all 1s;
-			}
-			nav ul li a:hover{				
-				color: #F2FEDC;
-				background-color: #3a356b ;
-				
-			}
-	 nav ul li a:before{
-			position:absolute;
-			content:"";
-			width:3px;
-			height:100%;
-			top:0;
-			left:0;
-			background-color:#7c3a58;
-			transition:all 1s;
-		}
-			
-		nav ul li a:after{
-			position:absolute;
-			content:"";
-			width:3px;
-			height:100%;
-			top:0;
-			left:100%;
-			background-color:#7c3a58;
-			transition:all 1s;
-		}
-			
-		nav ul li a:hover:before{
-			left:50%;
-			transform:translateY(-50%) rotate(-90deg);
-			height:150%;
-			background-color:#750787 ;
-			
-		}
-		
-		nav ul li a:hover:after{
-			left:50%;
-			transform:translateY(15%) rotate(-90deg);
-			height:150%;
-			background-color:#750787 ;
-		}
-		
-		
-	} 
-		
 
-		
+#menu {
+	margin: 15px auto;
+	text-align: center;
+	font-size: 0px;
+
+}
+
+#menu li {
+	width: 140px;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+nav ul li a {
+	display: block;
+	background-color: #48446E;
+	color: #F2FEDC;
+	width: 100%;
+	padding: 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	transition: all 1s;
+}
+
+nav ul li a:hover {
+	color: #F2FEDC;
+	background-color: #3a356b;
+
+}
+
+nav ul li a:before {
+	position: absolute;
+	content: "";
+	width: 3px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #7c3a58;
+	transition: all 1s;
+}
+
+nav ul li a:after {
+	position: absolute;
+	content: "";
+	width: 3px;
+	height: 100%;
+	top: 0;
+	left: 100%;
+	background-color: #7c3a58;
+	transition: all 1s;
+}
+
+nav ul li a:hover:before {
+	left: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+	height: 150%;
+	background-color: #750787;
+
+}
+
+nav ul li a:hover:after {
+	left: 50%;
+	transform: translateY(15%) rotate(-90deg);
+	height: 150%;
+	background-color: #750787;
+}
+
+
+
+
 /* Style for clothing tips page */
 
 
@@ -679,7 +687,7 @@ footer li:hover i {
 	max-width: 60vw;
 	max-height: 60vh;
 }
-		
+
 
 /* Back to top button for clothing tips page	
 Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
@@ -699,17 +707,13 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	font-size: 14px;
 
 }
-  
-  }
 
 
-  /* Style for submit clothing tip form */
 
-  .clothing-btn {
+
+/* Style for submit clothing tip form */
+
+.clothing-btn {
 	background-color: #402342;
 	color: #f2fedc;
-  }
-		
-
-	
-
+}
