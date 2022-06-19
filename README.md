@@ -26,6 +26,9 @@ For text - #F2FEDC
 
 ## Technologies
 
+Google Cloud Platform
+Bootstrap
+
 ## Resources
 
 [Dublin Pride](https://dublinpride.ie/events/) and [Meetup](https://www.meetup.com/) for events.
