@@ -427,7 +427,7 @@ footer li:hover i {
 }
 
 .git-colors li:nth-child(3) i {
-	color: yellow;
+	color: purple;
 }
 
 .git-colors li:nth-child(4) i {
@@ -548,7 +548,7 @@ footer li:hover i {
 
 /* Style for clothing tips page		 */
 
-.menu {
+.cloth-menu {
 	position: static;
 	width: 100%;
 	visibility: visible;
