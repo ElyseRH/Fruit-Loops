@@ -3,7 +3,7 @@
 
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
+        zoom: 9,
         center: { lat: 53.346788505821884, lng: - 6.271116615196459 },
     });
     const infoWindow = new google.maps.InfoWindow({
@@ -29,7 +29,7 @@ function initMap() {
 }
 
 const locations = [
-    { lat: 53.3445397, lng: -6.269746 },  // street 66
+    { lat: 53.3445397, lng: -6.2697513 },  // street 66
     { lat: 53.3456414, lng: -6.2689735 },  // penny lane
     { lat: 53.3456414, lng: -6.2689735 },  // panti bar
     { lat: 53.3470976, lng: -6.2822105 },  // vegan sandwich co
@@ -39,6 +39,7 @@ const locations = [
     { lat: 53.3554264, lng: -6.2659513 },  // veginity
     { lat: 53.3515121, lng: -6.2661519 },  // chapters
     { lat: 53.3269035, lng: -6.2646264 },  // blackbird
+    { lat: 53.3269035, lng: -6.2646264 },  // outhouse
 ];
 
 window.initMap = initMap;
