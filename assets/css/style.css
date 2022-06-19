@@ -328,10 +328,6 @@ footer ul {
     padding: 0px;
 }
 
-li:hover {
-    transform: translateY(-5px) scale(1.05);
-}
-
 footer li {
     display: inline;
     margin: 0 10px;
@@ -346,9 +342,6 @@ footer p {
     color: #ECE5DE;
 }
 
-/* footer i {
-    color: #ECE5DE;
-} */
 
 footer li:hover i {
     color: black;
