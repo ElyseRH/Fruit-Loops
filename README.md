@@ -1,6 +1,6 @@
 # Fruit-Loops
 
-Fruit loops is a safe space with resources for the LGBT+ community. The site features a few different aspects of being LGBT+ to aid in day to day life. A main feature is clothings tips, this is for someone who needs advice or guidance into changing their wardrobe to reflect their personality. Here they can find up to date information from the community to give them relevent advice from trusted people. A safe space map is also available to show areas around Dublin that someone from the LGBT+ community would feel comfortable in. This helps to eleviate the tension of trying to find somewhere new and accepting. The site is a great hub for someone who is a part of the community or just coming to explore where they fit in the world. Fruit Loops is the hub designed for everyone online.
+Fruit loops is a safe space with resources for the LGBTQ+ community. The site features a few different aspects of being LGBTQ+ to aid in day to day life. A main feature is clothings tips, this is for someone who needs advice or guidance into changing their wardrobe to reflect their personality. Here they can find up to date information from the community to give them relevent advice from trusted people. A safe space map is also available to show areas around Dublin that someone from the LGBTQ+ community would feel comfortable in. This helps to eleviate the tension of trying to find somewhere new and accepting. The site is a great hub for someone who is a part of the community or just coming to explore where they fit in the world. Fruit Loops is the hub designed for everyone online.
 
 ## UX
 
@@ -10,11 +10,19 @@ Fruit loops is a safe space with resources for the LGBT+ community. The site fea
 
 ### Colours
 
+We used [ColorSpace](https://mycolor.space/) for our site colour scheme and for the 'Back to top' button we used [Barchok's CSS pride flags](http://barchok.com/flags.html). We used:
+
+For navigation elements (and anything else requiring a darker colour) - #402342
+For backgrounds - #48446E
+For text - #F2FEDC
+
 ## Features
 
 ## Bugs
 
 ## Contributers
+
+[Elyse Horan](https://github.com/ElyseRH)
 
 ## Technologies
 
