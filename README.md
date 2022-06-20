@@ -8,6 +8,21 @@ Fruit loops is a safe space with resources for the LGBTQ+ community. The site fe
 
 ### User Stories
 
+New Users
+
+- As a New User I want to find available resources relating to the LGBTQ+ community
+- As a New User I want to find local events and places which are accepting to the community
+- As a New User I want to find clothing tips to give me guidance in my wardrobe choices
+- As a New User I am looking for support systems that I can use when necessary.
+
+Returning Users
+
+- As a Returning User I want to see if there are any new events that I can attend
+- As a Returning User I want to see if any new clothing tips have been approved for publishing
+- As a Returning User I want to find a new safe space to visit
+
+User stories have been managed across the github project board where we were able to track ongoing issues and relate them to the user story. This allowed us to correctly manage our time and prioritise specific tasks.
+
 ### Wireframes
 
 Fruity News
@@ -83,6 +98,10 @@ This section of the site is to provide further resources for anyone who needs it
 ### Page Identity
 
 One feature considered early in development was for each page to have its own identity, this would be done using different colour schemes to reflect different flags from the community. This felt like it would more personality to each section of the website. However it felt important to prioriitize functionality early on in the project and ensure that there would be the groundworks in place. 
+
+### Chat Room
+
+An idea to bring the community closer together was to include some form of chat room with user authentication. Users would be able to log in and chat in a reddit/chatroom style format. This would have required a toolset such as Django to get working the way we wanted, so decided early that we would not have the time to achieve this.
 
 ## Contributers
 
