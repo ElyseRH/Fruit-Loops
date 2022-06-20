@@ -1,127 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
         </script>
 
-  
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Safe Spaces</title>
+    <script src="https://kit.fontawesome.com/ce37e4bd20.js" crossorigin="anonymous"></script>
 </head>
 
 
-    <body id="lesbian">
-        <header>
-            <div class="container-fluid">
-                <div class="navbar-nav">
-                    <div class="container-header">
-                        <h1 class="logo-text"><a href="index.html">Fruit Loops</a></h1>
-                        <nav>
-                            <ul id="menu" class="menu">
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="clothing_tips.html">Clothing Tips</a></li>
-                                <li><a href="fruity_news.html">Fruity News</a></li>
-                                <li><a href="safe-space.html">Safe Spaces</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+<body id="lesbian">
+    <header>
+        <div class="container-fluid">
+            <div class="navbar-nav">
+                <div class="container-header">
+                    <h1 class="logo-text"><a href="index.html">Fruit Loops</a></h1>
+                    <nav>
+                        <ul id="menu" class="menu">
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="clothing_tips.html">Clothing Tips</a></li>
+                            <li><a href="fruity_news.html">Fruity News</a></li>
+                            <li><a href="safe-space.html">Safe Spaces</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </header>
-        <br>
-        <!-- Left Panel -->
-        <div id="left-panel">
-            <div id="inner-left">
-                <h2>Safe spaces!</h2>
-                <p> this map will show you some awesome and most importantly safe spaces for you to visit! 😺</p>
-                <!--The div element for the map -->
-                <div id="map"></div>
-                <div id="list-of-loc">
-                    <ul class="location-list-names">
-                        <li><a href="https://www.outhouse.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">A - Outhouse</a></li>
-                        <li><a href="https://www.street66.bar/" aria-label="Opens in a new tab" rel="noopener" target="_blank">B - Street 66</a></li>
-                        <li><a href="https://www.visitdublin.com/pantibar" aria-label="Opens in a new tab" rel="noopener" target="_blank">D - Panti Bar</a></li>
-                        <li><a href="https://vegansandwich.co/" aria-label="Opens in a new tab" rel="noopener" target="_blank">E - Vegan Sandwich Co</a></li>
-                        <li><a href="https://tokendublin.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">F - Token</a></li>
-                        <li><a href="https://cutandsew.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">G - Cut & Sew Wellington Quay</a></li>
-                        <li><a href="https://onthebackpage.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">H - The Back Page</a></li>
-                        <li><a href="https://www.veginity.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">I - Veginity</a></li>
-                        <li><a href="https://chaptersbookstore.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">J - Chapters</a></li>
-                        <li><a href="https://www.blackbirdrathmines.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">K - Blackbird</a></li>
+        </div>
+    </header>
+    <br>
+    <!-- Left Panel -->
+    <div id="left-panel">
+        <div id="inner-left">
+            <h2>Safe spaces!</h2>
+            <p> this map will show you some awesome and most importantly safe spaces for you to visit! 😺</p>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <div id="list-of-loc">
+                <ul class="location-list-names">
+                    <li><a href="https://www.outhouse.ie/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">A - Outhouse</a></li>
+                    <li><a href="https://www.street66.bar/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">B - Street 66</a></li>
+                    <li><a href="https://www.visitdublin.com/pantibar" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">D - Panti Bar</a></li>
+                    <li><a href="https://vegansandwich.co/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">E - Vegan Sandwich Co</a></li>
+                    <li><a href="https://tokendublin.ie/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">F - Token</a></li>
+                    <li><a href="https://cutandsew.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">G
+                            - Cut & Sew Wellington Quay</a></li>
+                    <li><a href="https://onthebackpage.com/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">H - The Back Page</a></li>
+                    <li><a href="https://www.veginity.com/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">I - Veginity</a></li>
+                    <li><a href="https://chaptersbookstore.com/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">J - Chapters</a></li>
+                    <li><a href="https://www.blackbirdrathmines.com/" aria-label="Opens in a new tab" rel="noopener"
+                            target="_blank">K - Blackbird</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Center content -->
+    <div id="wrapper-center">
+        <div id="inner-center">
+            <h1> A safe space for everyone!</h1>
+            <h2>We have done our research! here are the safest and most fabulous places to be in Dublin! 🦄</h2>
+            <h2>Safety Tips</h2>
+            <ol>
+                <li>
+                    <h4>Always have a buddy with you!</h4>
+                    <p>Two unicorns is better than one!
+                        Did you know a horse heard there is always one horse that's on the look out while the rest
+                        sleep?
+                        Unicorns always have each others backs! 🦄💜
+                    </p>
+                </li>
+                <li>
+                    <h4>Avoid wearing rainbow or anything associated with the LGBT</h4>
+                    <p>Sadly, during pride month , it is the time where a lot of homophobes target LGBT people
+                        because we wear our pride.
+                        If you believe that your being targeted, wear as basic items of clothing as possible, to
+                        blend in.
+                        Safety before fashion.
+                    </p>
+                </li>
+            </ol>
+            <h2>Telephone numbers for support!</h2>
+            <ul>
+                <li>For older LGBT: 1800 929 539</li>
+                <li>Cork Lesbian Line & Gay Information Cork Helpline(Cork City):1800 929 539</li>
+                <li>The Switchboard(Dublin): (01) 872 1055</li>
+            </ul>
+
+            </header>
+
+            <br>
+
+            <!-- Pride facts -->
+            <div id="fun-facts">
+                <div>
+                    <h2>Fun Facts about Pride!</h2>
+                    <ul>
+                        <li>The Greek Lambda symbol was commonly used as the symbol of the gay rights before the rainbow
+                            flag as it was the sign of Gay Activist Alliance.</li>
+                        <li>Amsterdam has long been hailed as a leading champion of LGBT rights – not only in the law
+                            but
+                            also in spirit. The city’s love affair with tolerance began as far back as 1811, when
+                            homosexuality was decriminalised under Napoleonic law.</li>
+                    </ul>
+                </div>
+                <img src="/assets/imgs/LGBT-Ireland-Logo-web.jpg" alt="Logo of LGBT Ireland">
+            </div>
+
+            <!-- Back to top button from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+            <button onclick="topFunction()" id="backBtn" class="safe-space-btn" title="Go to top">Back to top</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <ul class="git-colors">
+                        <li><a href="https://github.com/ElyseRH" title="Elyse" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our facebook page"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li><a href="https://github.com/BritishBambi" title="Josef" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our facebook page"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li><a href="https://github.com/nikolmichaelidou" title="Nikol" target="_blank"
+                                rel="noopener" aria-label="Click here to go to our facebook page"><i
+                                    class="fab fa-github"></i></a>
+                        </li>
+                        <li><a href="https://github.com/dooco" title="Padraig" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our facebook page"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li><a href="https://github.com/EricGaona" title="Eric" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our facebook page"><i class="fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <p> Copyright © Fruit Loops</p>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <ul class="social-networks">
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our facebook page"><i
+                                    class="fab fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our twitter page"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                aria-label="Click here to go to our instagram page"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <!-- Center content -->
-        <div id="wrapper-center">
-            <div id="inner-center">
-                <h1> A safe space for everyone!</h1>
-                <h2>We have done our research! here are the safest and most fabulous places to be in Dublin! 🦄</h2>
-                <h2>Safety Tips</h2>
-                <ol>
-                    <li>
-                        <h4>Always have a buddy with you!</h4>
-                        <p>Two unicorns is better than one!
-                            Did you know a horse heard there is always one horse that's on the look out while the rest
-                            sleep?
-                            Unicorns always have each others backs! 🦄💜
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Avoid wearing rainbow or anything associated with the LGBT</h4>
-                        <p>Sadly, during pride month , it is the time where a lot of homophobes target LGBT people
-                            because we wear our pride.
-                            If you believe that your being targeted, wear as basic items of clothing as possible, to
-                            blend in.
-                            Safety before fashion.
-                        </p>
-                    </li>
-                </ol>
-                <h2>Telephone numbers for support!</h2>
-                <ul>
-                    <li>For older LGBT: 1800 929 539</li>
-                    <li>Cork Lesbian Line & Gay Information Cork Helpline(Cork City):1800 929 539</li>
-                    <li>The Switchboard(Dublin): (01) 872 1055</li>
-                </ul>
-
-    </header>
-
-    <br>
-
-        <!-- Pride facts -->
-        <div id="fun-facts">
-            <div>
-                <h2>Fun Facts about Pride!</h2>
-                <ul>
-                    <li>The Greek Lambda symbol was commonly used as the symbol of the gay rights before the rainbow
-                        flag as it was the sign of Gay Activist Alliance.</li>
-                    <li>Amsterdam has long been hailed as a leading champion of LGBT rights – not only in the law but
-                        also in spirit. The city’s love affair with tolerance began as far back as 1811, when
-                        homosexuality was decriminalised under Napoleonic law.</li>
-                </ul>
-            </div>
-            <img src="/assets/imgs/LGBT-Ireland-Logo-web.jpg" alt="Logo of LGBT Ireland">
-        </div>
-
-        <!-- Back to top button from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-        <button onclick="topFunction()" id="backBtn" class="safe-space-btn" title="Go to top">Back to top</button>
-
-    </body>
-    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu1D_7uapNHtG-ezWmXAf2Fc5exJKAdZ0&callback=initMap">
+    </footer>
+</body>
+<script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu1D_7uapNHtG-ezWmXAf2Fc5exJKAdZ0&callback=initMap">
     </script>
 
-    <script src="/assets/js/maps-safe-space.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+<script src="/assets/js/maps-safe-space.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>
