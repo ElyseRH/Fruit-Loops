@@ -672,10 +672,9 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	font-size: 14px;
 }
 
-
 /* Style for submit clothing tip form */
 
-.clothing-btn {
+.clothing-submit-btn {
 	background-color: #402342;
 	color: #f2fedc;
 }
