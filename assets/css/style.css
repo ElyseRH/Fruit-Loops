@@ -58,26 +58,6 @@ body {
 	float: left;
 }
 
-/* Right Panels */
-#right-panel {
-	padding-left: 2px;
-	margin: 0;
-	height: min-content;
-	width: min-content;
-	border: solid;
-	text-align: center;
-	float: right;
-	padding-top: 45px;
-	background: linear-gradient(#E5ABD0 57.14%,
-			#C74D52 71.425%);
-	color: black;
-	position: relative;
-}
-
-#inner-right {
-	float: right;
-}
-
 /* Center Content */
 #wrapper-center {
 	margin: auto;
