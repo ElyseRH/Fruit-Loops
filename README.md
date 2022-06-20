@@ -109,6 +109,8 @@ An idea to bring the community closer together was to include some form of chat 
 
 [Josef Jakubiak](https://github.com/BritishBambi)
 
+[Nikoletta Michailidou](https://github.com/nikolmichaelidou)
+
 ## Technologies
 
 - HTML
@@ -124,6 +126,12 @@ An idea to bring the community closer together was to include some form of chat 
 - Github
 
 ## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy were as follows: 
+  - In the GitHub repository, navigated to the Settings tab 
+  - From the source section drop-down menu, selected the Main Branch
+  - Once the main branch has been selected, the page was automatically deployed. 
+
 
 ## Resources
 
