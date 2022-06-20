@@ -54,6 +54,21 @@ body {
 	position: relative;
 }
 
+.location-list-names {
+	list-style-type: none;
+}
+
+.location-list-names a {
+	text-decoration: none;
+	color: #402342
+}
+
+.location-list-names a:hover {
+	text-decoration: underline;
+}
+
+
+
 #inner-left {
 	float: left;
 }
@@ -311,8 +326,9 @@ main {
 
 /*		 support Area 	 */
 section.networks {
-	background-color: #00C0C0 ;
+	background-color: #00C0C0;
 }
+
 #supportArea {
 	text-align: center;
 	max-width: 1150px;
@@ -417,6 +433,27 @@ footer li:hover i {
 
 }
 
+/* // Code for back to top button on safe spaces page
+// from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp  */
+.safe-space-btn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background: linear-gradient(180deg, #A60061 14.285%,
+			#B95393 14.285%, 28.57%, #D260A7 28.57%, 42.855%,
+			#EDEDEB 42.855%, 57.14%, #E5ABD0 57.14%, 71.425%,
+			#C74D52 71.425%, 85.71%, #8C1D00 85.71%);
+	color: #402342;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
 @media (min-width: 917px) {
@@ -439,10 +476,12 @@ footer li:hover i {
 		padding-top: 0px;
 
 	}
+
 	ul.menu {
-		
+
 		padding: 0;
 	}
+
 	#menu {
 		margin: 15px auto;
 		text-align: center;
@@ -533,6 +572,7 @@ footer li:hover i {
 	padding-top: 0px;
 
 }
+
 nav ul li a {
 
 	background-color: #48446E;
@@ -551,13 +591,13 @@ nav ul li a:hover {
 nav ul li a:before {
 
 	background-color: #7c3a58;
-	
+
 }
 
 nav ul li a:after {
 
 	background-color: #7c3a58;
-	
+
 }
 
 nav ul li a:hover:before {
@@ -569,13 +609,7 @@ nav ul li a:hover:before {
 nav ul li a:hover:after {
 
 	background-color: #750787;
-} 
-
-
-
-
-/* Style for clothing tips page */
-
+}
 
 .clothing-tips-main a {
 	text-decoration: none;
@@ -602,7 +636,6 @@ nav ul li a:hover:after {
 .clothing-card-body {
 	background-color: #f2fedc;
 	color: #48446E;
-	/* margin: 2rem; */
 }
 
 .clothing-card-body a {
@@ -623,7 +656,7 @@ nav ul li a:hover:after {
 
 /* Back to top button for clothing tips page	
 Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-#clothingBtn {
+.clothing-btn {
 	display: none;
 	position: fixed;
 	bottom: 20px;
@@ -632,15 +665,12 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	border: none;
 	outline: none;
 	background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
-	color: #402342;
+	color: black; 
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 10px;
 	font-size: 14px;
-
 }
-
-
 
 
 /* Style for submit clothing tip form */
@@ -653,11 +683,11 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 /* Fruity News */
 
-.twitter-timeline{
+.twitter-timeline {
 	height: 99% !important;
 }
 
-.feed-item-title > a{
+.feed-item-title>a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 2rem;

@@ -28,6 +28,7 @@
                                 <li><a href="events.html">Events</a></li>
                                 <li><a href="clothing_tips.html">Clothing Tips</a></li>
                                 <li><a href="fruity_news.html">Fruity News</a></li>
+                                <li><a href="safe-space.html">Safe Spaces</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -43,10 +44,17 @@
                 <!--The div element for the map -->
                 <div id="map"></div>
                 <div id="list-of-loc">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="location-list-names">
+                        <li><a href="https://www.outhouse.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">A - Outhouse</a></li>
+                        <li><a href="https://www.street66.bar/" aria-label="Opens in a new tab" rel="noopener" target="_blank">B - Street 66</a></li>
+                        <li><a href="https://www.visitdublin.com/pantibar" aria-label="Opens in a new tab" rel="noopener" target="_blank">D - Panti Bar</a></li>
+                        <li><a href="https://vegansandwich.co/" aria-label="Opens in a new tab" rel="noopener" target="_blank">E - Vegan Sandwich Co</a></li>
+                        <li><a href="https://tokendublin.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">F - Token</a></li>
+                        <li><a href="https://cutandsew.ie/" aria-label="Opens in a new tab" rel="noopener" target="_blank">G - Cut & Sew Wellington Quay</a></li>
+                        <li><a href="https://onthebackpage.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">H - The Back Page</a></li>
+                        <li><a href="https://www.veginity.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">I - Veginity</a></li>
+                        <li><a href="https://chaptersbookstore.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">J - Chapters</a></li>
+                        <li><a href="https://www.blackbirdrathmines.com/" aria-label="Opens in a new tab" rel="noopener" target="_blank">K - Blackbird</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,26 +86,16 @@
                     </li>
                 </ol>
                 <h2>Telephone numbers for support!</h2>
-
-    </header>
-
-    <br>
-    <!-- Left Panel -->
-    <div id="left-panel">
-        <div id="inner-left">
-            <h2>Safe spaces!</h2>
-            <p> this map will show you some awesome and most importantly safe spaces for you to visit! 😺</p>
-            <!--The div element for the map -->
-            <div id="map"></div>
-            <div id="list-of-loc">
-
                 <ul>
                     <li>For older LGBT: 1800 929 539</li>
                     <li>Cork Lesbian Line & Gay Information Cork Helpline(Cork City):1800 929 539</li>
                     <li>The Switchboard(Dublin): (01) 872 1055</li>
                 </ul>
-            </div>
-        </div>
+
+    </header>
+
+    <br>
+
         <!-- Pride facts -->
         <div id="fun-facts">
             <div>
@@ -112,6 +110,10 @@
             </div>
             <img src="/assets/imgs/LGBT-Ireland-Logo-web.jpg" alt="Logo of LGBT Ireland">
         </div>
+
+        <!-- Back to top button from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <button onclick="topFunction()" id="backBtn" class="safe-space-btn" title="Go to top">Back to top</button>
+
     </body>
     <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
     <script async
