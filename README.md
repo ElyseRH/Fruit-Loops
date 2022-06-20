@@ -8,6 +8,22 @@ Fruit loops is a safe space with resources for the LGBTQ+ community. The site fe
 
 ### Wireframes
 
+Fruity News
+
+![Fruity News Wireframe](./assets/readme/news-screenshot.PNG "Screenshot of news wireframe")
+
+Clothing Tips
+
+![Clothing Tips Wireframe](./assets/readme/clothing-tips-screenshot.jfif "Screenshot of clothing wireframes")
+
+Submit Clothing Tip
+
+![Submit Clothing Tip Wireframe](./assets/readme/clothing-form-screenshot.jpg "Screenshot of submission form wireframe ")
+
+Safe Spaces
+
+![Safe spaces Wireframe](./assets/readme/safe-spaces-wireframes.png "Screenshot of safe spaces wireframe")
+
 ### Colours
 
 We used [ColorSpace](https://mycolor.space/) for our site colour scheme and for the 'Back to top' button we used [Barchok's CSS pride flags](http://barchok.com/flags.html). We used:
@@ -36,6 +52,8 @@ The events page features a fully functional calendar that can connect to the use
 
 Clothings tips provides a selection of tips and available resources to anyone in the community. We were able to identify clothing as an area where a large percentage of the LGBT+ community would benefit from more information. Here different sections are laid out in their own content blocks and provide specific links to the user so they are not overwhelemed with information as soon as they load onto the page. Some Diy tips are encouraged as well as alternatives to buy online. A "Back to top" button is also seen in the bottom of the screen painted as a transgender pride flag. This again helps the user feel comfortable and reafirms that this is a safe space for the people who need it.
 
+A feature is also available where the user can submit their own clothing tips. A form is included where the user can enter their tip to be submitted for review. The user can also attach their name and Email to be updated on if the tip was accepted for publishing. This encourages some community participation and ensures that all the information we display on the site has been provided from anyone who knows what they are talking about.
+
 ### Fruity News
 
 Fruity news is the hub for latest information and community activity. This feed is targeted towards the LGBTQ+ community of Dublin and provides the user with only relevent topics to the community. On the left side of the page is a refreshing news feed providing a small sample of an article from the GNC. Here a user can find any posts that they can chose to read on a surface level or dive deeper to read a full article. All these links load into a new tab as expected rather than taking the user away from the site. On the right side is embeded stream of the Dublin LGBTQ+ Pride twitter page. This provides a more constant upstream of new content from around the community that is relevent to the user need.
@@ -57,12 +75,17 @@ This section of the site is to provide further resources for anyone who needs it
 ## Technologies
 
 - HTML
+    - This project uses HTML as the main language used to complete the structure of the Website.
 - CSS
+    - This project uses custom written CSS to style the Website.
 - Javascript
 - Google Cloud Platform
 - Bootstrap
+    - The project uses bootstrap for some custom styling elements to ensure responsive behaviour across devices.
 - Git
 - Github
+
+## Deployment
 
 ## Resources
 
