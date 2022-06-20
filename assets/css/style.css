@@ -633,6 +633,13 @@ nav ul li a:hover:after {
 	margin: 2rem;
 }
 
+@media screen and (max-width: 750px) {
+	.clothing-tips-card {
+		width: 20rem;
+		margin: 1rem;
+	}
+  }
+
 .clothing-card-body {
 	background-color: #f2fedc;
 	color: #48446E;
