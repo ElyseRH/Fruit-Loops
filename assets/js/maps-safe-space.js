@@ -31,7 +31,6 @@ function initMap() {
 const locations = [
     { lat: 53.3497662, lng: -6.2716656 },  // outhouse
     { lat: 53.3445397, lng: -6.2697513 },  // street 66
-    { lat: 53.3456414, lng: -6.2689735 },  // penny lane
     { lat: 53.3465756, lng: -6.2700656 },  // panti bar
     { lat: 53.3470976, lng: -6.2822105 },  // vegan sandwich co
     { lat: 53.3476158, lng: -6.2802144 },  // token
@@ -41,32 +40,5 @@ const locations = [
     { lat: 53.3515121, lng: -6.2661519 },  // chapters
     { lat: 53.3269035, lng: -6.2646264 },  // blackbird
 ];
-
-
-
-
-// const locations = [
-//     {
-//         "name": "Outhouse",
-//         "pincode": "A",
-//         lat: 53.3497662,
-//         lng: -6.2716656
-//     },
-//     {
-//         "name": "Street 66",
-//         // "address": "Car Nicobar",
-//         // "pincode": 744301,
-//         "pincode": "B",
-//         lat: 53.3445397,
-//         lng: -6.2697513
-//     },
-//     {
-//         "name": "Penny Lane",
-//         "pincode": "C",
-//         lat: 53.3465756,
-//         lng: -6.2700656
-//     }
-// ]
-
 
 window.initMap = initMap;

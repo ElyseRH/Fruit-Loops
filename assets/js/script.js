@@ -11,7 +11,7 @@ $( '.burguer' ).on( 'click', function ()
 // Code for back to top button on clothing tips page
 // from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
 
-mybutton = document.getElementById( "clothingBtn" );
+mybutton = document.getElementById( "backBtn" );
 
 window.onscroll = function () { scrollFunction() };
 
