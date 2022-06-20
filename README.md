@@ -90,6 +90,8 @@ One feature considered early in development was for each page to have its own id
 
 [Josef Jakubiak](https://github.com/BritishBambi)
 
+[Nikoletta Michailidou](https://github.com/nikolmichaelidou)
+
 ## Technologies
 
 - HTML
@@ -105,6 +107,12 @@ One feature considered early in development was for each page to have its own id
 - Github
 
 ## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy were as follows: 
+  - In the GitHub repository, navigated to the Settings tab 
+  - From the source section drop-down menu, selected the Main Branch
+  - Once the main branch has been selected, the page was automatically deployed. 
+
 
 ## Resources
 
